@@ -1,42 +1,71 @@
 
-# Digital Clock 🕒
+# Python Projects
 
-## About the Project
-Digital Clock is a Python application built using Tkinter.
-It displays a digital clock with the current time and date.
+A collection of Python projects built to practice Python programming, GUI development, and event-driven applications using Tkinter.
 
-## Features
-- Displays the current time.
-- Shows the current date.
-- Simple graphical user interface.
+## Projects
+
+### 1. Digital Clock
+
+A simple digital clock application developed using Python and Tkinter. It displays the current time and date in a graphical interface.
+
+**Features**
+- Displays the current time and date.
+- Simple, user-friendly GUI.
 - Dark-themed interface.
+- Updates the displayed time automatically.
 
-## Technologies Used
-- Python
-- Tkinter
+**Technologies:** Python, Tkinter
+
+### 2. Digital Alarm Clock
+
+A Python-based alarm clock application with a graphical user interface. It displays the current time and date and allows users to set an alarm.
+
+**Features**
+- Displays live time and date.
+- Set an alarm using 24-hour format (`HH:MM`).
+- Plays an alarm sound when the scheduled time is reached.
+- Stop or cancel the alarm.
+- Snooze the alarm for 5 minutes.
+- Validates the alarm time entered by the user.
+
+**Technologies:** Python, Tkinter, `winsound`
 
 ## Requirements
-- Python 3.x
-- Tkinter (usually included with standard Python installations)
+
+- Python 3
+- Windows OS for the alarm sound functionality using `winsound`
 
 ## How to Run
 
-1. Clone this repository:
-   ```bash
-   git clone YOUR_REPOSITORY_URL
-   ```
+Open the project folder in VS Code and run the appropriate Python file.
 
-2. Open the project folder:
-   ```bash
-   cd DigitalClock
-   ```
+For the Digital Clock:
 
-3. Run the Python file:
-   ```bash
-   python your_file_name.py
-   ```
+```bash
+python digital.py
+```
 
-Replace `your_file_name.py` with the actual name of your Python file.
+For the Digital Alarm Clock:
+
+```bash
+python alarm.py
+```
+
+If your actual filenames are `digital_alarm_clock.py` and another name for the digital clock, use those filenames in the commands above.
+
+## Learning Objectives
+
+- Python programming fundamentals
+- GUI development with Tkinter
+- Working with time and date
+- Event handling and scheduled updates
+- Basic application development
 
 ## Author
+
 Amit Ghode
+
+---
+
+This repository contains personal Python practice projects and may be updated as new projects are developed.
